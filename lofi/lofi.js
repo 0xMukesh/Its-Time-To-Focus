@@ -12,7 +12,7 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['Lofi For Studying','Chill Study Beats','Cozy Winter Study Beats', 'Study Beats For Homeworks'];
+const songs = ['Lofi For Studying','Chill Study Beats','Cozy Winter Study Beats', 'Study Beats For Homeworks','Japanese Lofi HipHop Mix'];
 
 // Keep track of song
 let songIndex = 0;
