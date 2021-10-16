@@ -1,5 +1,5 @@
 # It's Time to Focus
-https://kira272921.github.io/index.html
+https://kira272921.github.io
 
 ## Features
 - Todo List, to manages all of your tasks
