@@ -118,7 +118,7 @@ function handleMode(event) {
   stopTimer();
 }
 
-const buttonSound = new Audio("../../sounds/button-sound.mp3");
+const buttonSound = new Audio("../../assests/sounds/button-sound.mp3");
 const mainButton = document.getElementById("js-btn");
 mainButton.addEventListener("click", () => {
   const { action } = mainButton.dataset;

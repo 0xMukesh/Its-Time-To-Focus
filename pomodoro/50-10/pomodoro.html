@@ -26,41 +26,40 @@
   <!-- Favicon -->
   <link rel="shortcut icon" href="../../assests/images/favicon.ico" type="image/x-icon">
   <title>Pomodoro Clock</title>
-  <link rel="stylesheet" href="./pomodoro.css">
-</head>
+  <link rel="stylesheet" href="./p../../assests/sounds/
 
 <body>
-  <main class="app">
-    <progress id="js-progress" value="0"></progress>
-    <div class="progress-bar"></div>
-    <div class="timer">
-      <div class="button-group mode-buttons" id="js-mode-buttons">
-        <button data-mode="pomodoro" class="button active mode-button" id="js-pomodoro">
-          Pomodoro
-        </button>
-        <button data-mode="shortBreak" class="button mode-button" id="js-short-break">
-          Short break
-        </button>
-        <button data-mode="longBreak" class="button mode-button" id="js-long-break">
-          Long break
-        </button>
-      </div>
-      <div class="clock" id="js-clock">
-        <span id="js-minutes">50</span>
-        <span class="separator">:</span>
-        <span id="js-seconds">00</span>
-      </div>
-      <button class="main-button" data-action="start" id="js-btn">
-        Start
+  <main class=" app">
+  <progress id="js-progress" value="0"></progress>
+  <div class="progress-bar"></div>
+  <div class="timer">
+    <div class="button-group mode-buttons" id="js-mode-buttons">
+      <button data-mode="pomodoro" class="button active mode-button" id="js-pomodoro">
+        Pomodoro
+      </button>
+      <button data-mode="shortBreak" class="button mode-button" id="js-short-break">
+        Short break
+      </button>
+      <button data-mode="longBreak" class="button mode-button" id="js-long-break">
+        Long break
       </button>
     </div>
+    <div class="clock" id="js-clock">
+      <span id="js-minutes">50</span>
+      <span class="separator">:</span>
+      <span id="js-seconds">00</span>
+    </div>
+    <button class="main-button" data-action="start" id="js-btn">
+      Start
+    </button>
+  </div>
   </main>
   <div class="hidden">
-    <audio src="../../sounds/ring.mp3" data-sound="pomodoro"></audio>
-    <audio src="../../sounds/ring.mp3" data-sound="shortBreak"></audio>
-    <audio src="../../sounds/ring.mp3" data-sound="longBreak"></audio>
+    <audio src="../../assests/sounds/ring.mp3" data-sound="pomodoro"></audio>
+    <audio src="../../assests/sounds/ring.mp3" data-sound="shortBreak"></audio>
+    <audio src="../../assests/sounds/ring.mp3" data-sound="longBreak"></audio>
   </div>
   <script src="./pomodoro.js"></script>
-</body>
+  </body>
 
 </html>
