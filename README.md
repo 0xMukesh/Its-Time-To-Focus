@@ -13,6 +13,10 @@
 
 ## Milestones
 
-### 14th October 2021
+- ### 14th October 2021
 
-Succesfully added Lofi Music Player Feature
+  Succesfully added Lofi Music Player Feature
+
+- ### 5th November 2021
+
+  Landing Page revamped
