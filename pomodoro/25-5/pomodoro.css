@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
 html {
   box-sizing: border-box;
 }
@@ -20,8 +22,7 @@ html {
 body {
   background-color: var(--bgc);
   transition: background-color 1s ease;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Poppins", sans-serif !important;
   user-select: none;
 }
 
@@ -30,7 +31,7 @@ progress {
   width: 100%;
   height: 12px;
   position: fixed;
-  top: 0;
+  top: 54px;
 }
 
 progress::-webkit-progress-bar {
@@ -61,7 +62,7 @@ progress::-webkit-progress-value {
 }
 
 .mode-button {
-  font-size: 16px;
+  font-size: 18px;
   height: 28px;
   cursor: pointer;
   box-shadow: none;

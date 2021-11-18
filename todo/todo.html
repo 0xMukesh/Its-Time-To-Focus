@@ -26,9 +26,45 @@
   <link rel="shortcut icon" href="../assests/images/favicon.ico" type="image/x-icon">
   <title>Todo List</title>
   <link rel="stylesheet" href="./todo.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">It's Time To Focus</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Pomodoro Clock
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../pomodoro/25-5/pomodoro.html">25/5 Pomodoro</a></li>
+              <li><a class="dropdown-item" href="../pomodoro/50-10/pomodoro.html">50/10 Pomodoro</a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="../lofi/lofi.html">Lofi Music</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../todo/todo.html">Todo List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../breath/breath.html">Breath Counter</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://github.com/Kira272921/kira272921.github.io">GitHub</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <main>
     <div class="container">
       <h1 class="app-title">Todo List</h1>
@@ -88,6 +124,11 @@
       </symbol>
     </defs>
   </svg>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="/todo/todo.js"></script>
 </body>
 
